@@ -1,0 +1,209 @@
+/* CSS reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+/* Koniec CSS reset*/
+.body{
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) repeat center;
+  font-family: 'Libre Baskerville', serif;
+  color: #444349;
+}
+
+.header{
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsla(0,0%,100%,.9);
+}
+
+.header_1{
+   background-color: hsla(100,0%,0%,0.6);
+   font-size: 1.125rem;
+   padding: 0.5rem;
+   width: 45vw;
+}
+
+.hedline1{
+  letter-spacing: 0.15rem;
+  font-size: 1.125rem;
+  padding: 0.5rem;
+}
+.hedline2{
+  font-size: 1.125rem;
+  padding: 1.5rem;
+  letter-spacing: 0.15rem;
+  
+}
+
+.hedline{
+  font-family: 'Great Vibes', cursive;
+  font-size: 4.15rem;
+  letter-spacing: 0.5rem;
+  padding: rem;
+  color:#d2ba87;
+}
+
+.hedline1::after{
+  display:block;
+  content:"";
+  background-color: #fff;
+  height: 1px;
+  width: 8.5rem;
+  margin: 0.5rem auto;
+}
+
+.hedline2::before,
+.hedline2::after{
+  display:inline-block;
+  content:"";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 1rem;
+}
+
+.drugi_modul{
+  width: 100vw;
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) repeat center;
+}
+
+h1{
+  width: 100vw;
+  height: 10vh;
+   font-family: 'Great Vibes', cursive;
+   font-size: 3rem;
+   text-align: center;
+   padding: 1.5rem;
+   letter-spacing: 0.2rem;
+   text-shadow: 4px 4px 4px #aaa;
+}
+.drugi_modul{
+  width:100vw;
+  margin: auto;
+  padding:.5rem 1 rem;
+  text-align: center;
+}
+
+.kolumna img{
+  height: 11.5rem;
+}
+
+.kolumna h3{
+  font-weight: 700;
+  font-size:1.5rem;
+  padding:.5rem;
+}
+.kolumna div{
+  font-family:'Muli', sans-serif;
+}
+
+.kolumna::after{
+  content:"";
+  display:block;
+  height:.1875rem;
+  width: 25vw;
+  margin: .5rem auto;
+  background-color:#444349;
+  
+}
+
+.trzeci_modul{
+  background: hsla(100,0%,0%,0.6);
+  text-align: center;
+  color:#d2ba87;
+}
+
+.trzeci_modul h3, h1, ul{
+  padding: 1rem;
+}
+
+.trzeci_modul ul{
+  letter-spacing: .025rem;
+  list-style-type: none;    /* usunięcie punktorow z listy*/
+
+}
+
+.czwarty_modul{
+  width: 100vw;
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png) repeat center;
+  text-align: center;
+}
+
+.czwarty_modul img{
+  height: 11.5rem;
+}
+.czwarty_modul h1,h3, p{
+  padding: 1rem;
+}
+
+/* Piąty moduł */
+
+.piaty_modul{
+  width: 100vw;
+  background: hsla(100,0%,0%,0.6);
+  text-align: left;
+  color:#d2ba87;
+}
+.kolumna5 h3{
+  font-weight: 700;
+  font-size:1.5rem;
+  padding:.5rem;
+}
+.piaty_modul a{
+  font-weight: 700;
+  color:#bd806e
+}
+.piaty_modul a:hover{
+   color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+.kolumna5::after{
+  content:"";
+  display:block;
+  height:.1875rem;
+  width: 30vw;
+  margin: .5rem auto;
+  background-color:#d2ba87;
+  
+}
+
+
+
+@media (min-width: 768px) {
+
+  .kolumna,.kolumna5 {
+    display: inline-block;
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    vertical-align: top;
+  }
+
+  .kolumna::after {
+    display: none;
+}
+    
+@media (min-width: 768px) {
+
+  .kolumna5 {
+    display: inline-block;
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    vertical-align: top;
+}
+  .kolumna5::after {
+    display: none;
+  }
